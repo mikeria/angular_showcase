@@ -1,0 +1,8 @@
+<h2>Crypto List</h2>
+<div class="card" *ngFor="let coin of coins">
+  <div class="card-body">
+    <h3>{{ coin.name}}</h3>
+    <p>{{ coin.symbol }}</p>
+    <p>{{ coin.quotes.USD.price}}</p>
+  </div>
+</div>
